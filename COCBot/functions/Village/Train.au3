@@ -204,15 +204,15 @@ Func Train()
 			$brrNum += 1
 			Switch $barrackTroop[$brrNum-1]
 				Case 0
-						Click(220, 320, 25, 10)
+						Click(220, 320, 60, 10)
 				Case 1
-						Click(331, 320, 25, 10)
+						Click(331, 320, 60, 10)
 				Case 2
-						Click(432, 320, 25, 10)
+						Click(432, 320, 60, 10)
 				Case 3
-						Click(546, 320, 25, 10)
+						Click(546, 320, 60, 10)
 				Case 4
-						Click(647, 320, 25, 10)
+						Click(647, 320, 60, 10)
 			EndSwitch
 
 		    If _Sleep(500) Then ExitLoop
